@@ -1,0 +1,15 @@
+Doggy 173 - an SCP Exiter Breach mod
+
+- Base game + original 173 texture: SCP - Containment Breach
+  (Undertow Games / SCP-CB Community Preservation Project, CC BY-SA 3.0).
+  The Doggy texture is a repaint of the original 173texture.jpg UV layout:
+  warm fur tint, dog spots on the body, and a painted dog face (floppy ears,
+  muzzle, nose, tongue) in the head region.
+- Sounds are Doggy's own sounds, reused from Eric's Doggy Containment
+  Breach audio library (public/audio, see that project's LICENSES.md):
+  StoneDrag.ogg  <- growl-2 (looped, faded loop point)
+  Rattle1.ogg    <- sniff
+  Rattle2.ogg    <- creature-whine
+  Rattle3.ogg    <- growl-1
+  NeckSnap sounds are deliberately left stock. He is still 173.
+- Icon + loading screen art drawn for this mod.
