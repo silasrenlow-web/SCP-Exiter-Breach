@@ -53,6 +53,20 @@ You land on branch `main` — that's our SCP Exiter Breach line.
 4. Playtest. Report back to Muse: what broke, what felt wrong, exact
    room/SCP/item if you can — screenshots/video help a lot.
 
+## EXPECTED: Windows "Malicious file" popup (SmartScreen)
+BlitzPRO Legacy.exe (and later, our compiled game exe) triggers a big red
+Windows SmartScreen "Malicious file" popup. This is a **reputation**
+warning, not a virus detection: the exe is unsigned and rarely
+downloaded, so Windows has no trust history for it.
+Verified 2026-11-01: our `BlitzPRO.Legacy.v2.100.zip` SHA-256
+`a509b2380cfed97ba5d194c00816ccdb3b7026552db04614d8581c6992b27738`
+matches GitHub's official published digest for the Euclid-Labs-Studio
+release asset byte-for-byte. The launcher `BlitzPRO Legacy.exe` inside
+is 110,080 bytes, SHA-256
+`a546b94646c97f979d7e5b4aa49b6d3b0ec358a8d2debbf0393546495639bc2e`.
+To run: on the popup click **More info** -> **Run anyway**.
+Expect the same popup the first time you run our compiled game exe too.
+
 ## Notes
 - Do NOT use the old Blitz3D 1.108 + mavless_bin instructions in
   `Instructions.txt` — that's the dead 1.3.11 setup.
