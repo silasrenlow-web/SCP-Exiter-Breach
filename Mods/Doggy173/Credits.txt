@@ -12,4 +12,14 @@ Doggy 173 - an SCP Exiter Breach mod
   Rattle2.ogg    <- creature-whine
   Rattle3.ogg    <- growl-1
   NeckSnap sounds are deliberately left stock. He is still 173.
+- MODEL (v2 of this mod): GFX/npcs/173_2.b3d (+ GFX/map/173_2.b3d room prop)
+  is a from-scratch sitting-dog mesh (2,149 verts / 3,276 tris) written
+  directly in Blitz3D .b3d format by a Python generator - floppy ears,
+  muzzle, nose, tongue, red collar, cream chest/paws, body spot, tail.
+  Colours come from its own palette texture GFX/npcs/doggybody.jpg.
+  The statue texture repaint above is kept for anything still using it.
+- Size fix: the game scales 173 by scale / MeshDepth (Data/NPCs.ini).
+  The dog's H/D is 1.129 (statue: 3.303), so Data/NPCs.ini in this mod
+  overrides ONLY SCP-173's scale to 1.02 = same in-game height as stock.
+  Speed and everything else fall back to stock per-key.
 - Icon + loading screen art drawn for this mod.
